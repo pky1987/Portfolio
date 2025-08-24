@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { Menu, X, Code, Brain, Shield, Sparkles } from 'lucide-react';
+import { Menu, X, Code, Brain, Shield, Sparkles, FileText } from 'lucide-react';
 import GradientText from '../ui/GradientText';
 
 export default function Header() {
@@ -12,6 +12,7 @@ export default function Header() {
     { name: 'Skills', href: '#skills', icon: Brain },
     { name: 'About', href: '#about', icon: Sparkles },
     { name: 'Contact', href: '#contact', icon: Shield },
+    { name: 'Resume', href: '/resume.pdf',icon: FileText, target: '_blank'}
   ];
 
   return (

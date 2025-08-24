@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Code, Brain, Shield, Sparkles } from 'lucide-react';
+import { Code, Brain, Shield, Sparkles,Download } from 'lucide-react';
 
 export default function Hero() {
   return (
@@ -69,6 +69,10 @@ export default function Hero() {
           >
             GitHub Profile
           </a>
+          <a
+          href="/Prakash_Yadav_Resume.pdf" target="_blank"
+          className="px-6 py-3 border border-purple-400 text-purple-300 rounded-lg hover:bg-purple-950 transition-all">
+          <Download className="w-4 h-4 mr-2 inline" />View Resume</a>
         </motion.div>
 
         {/* Scroll indicator */}
