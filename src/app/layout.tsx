@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
-import '@/styles/global.css';
+import './globals.css';
 import { ThemeProvider } from 'next-themes';
 
 const inter = Inter({ subsets: ['latin'] });
@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: 'Protocol Architect | Blockchain & AI Systems Expert',
   description: 'Expert in building verifiable, intelligent systems at the intersection of AI and blockchain. Specializing in smart contract security, zero-knowledge proofs, and distributed systems.',
   keywords: 'Blockchain, AI, Smart Contracts, ZK-Proofs, Rust, Elixir, Solidity, Protocol Architecture',
-  authors: [{ name: 'Your Name' }],
+  authors: [{ name: 'Prakash Yadav' }],
   openGraph: {
     title: 'Protocol Architect | Blockchain & AI Systems Expert',
     description: 'Expert in building verifiable, intelligent systems at the intersection of AI and blockchain.',
