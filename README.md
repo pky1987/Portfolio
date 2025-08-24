@@ -34,3 +34,60 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+portfolio/
+├── public/
+│   ├── images/
+│   │   ├── projects/
+│   │   │   ├── nexus-core/
+│   │   │   │   ├── architecture.png
+│   │   │   │   ├── dashboard.png
+│   │   │   │   └── demo.gif
+│   │   │   ├── amm-xyk/
+│   │   │   └── promptopia/
+│   │   ├── screenshots/
+│   │   └── avatar.jpg
+│   ├── videos/
+│   │   └── demo-nexus.mp4
+│   └── favicon.ico
+├── src/
+│   ├── components/
+│   │   ├── ui/
+│   │   │   ├── AnimatedSection.tsx
+│   │   │   ├── TechBadge.tsx
+│   │   │   └── GradientText.tsx
+│   │   ├── layout/
+│   │   │   ├── Header.tsx
+│   │   │   ├── Footer.tsx
+│   │   │   └── Navigation.tsx
+│   │   ├── sections/
+│   │   │   ├── Hero.tsx
+│   │   │   ├── Projects.tsx
+│   │   │   ├── Skills.tsx
+│   │   │   ├── About.tsx
+│   │   │   └── Contact.tsx
+│   │   └── projects/
+│   │       ├── ProjectCard.tsx
+│   │       └── ProjectModal.tsx
+│   ├── data/
+│   │   ├── projects.ts
+│   │   ├── skills.ts
+│   │   └── constants.ts
+│   ├── styles/
+│   │   ├── globals.css
+│   │   ├── animations.css
+│   │   └── gradients.css
+│   ├── app/
+│   │   ├── layout.tsx
+│   │   ├── page.tsx
+│   │   └── globals.css
+│   └── lib/
+│       └── utils.ts
+├── scripts/
+│   ├── generate-sitemap.js
+│   └── optimize-images.js
+├── next.config.js
+├── tailwind.config.js
+├── tsconfig.json
+├── package.json
+└── README.md

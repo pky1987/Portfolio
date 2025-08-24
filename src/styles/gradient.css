@@ -1,0 +1,173 @@
+/* src/styles/gradients.css */
+
+/* Background gradients */
+.bg-gradient-radial {
+  background-image: radial-gradient(circle, var(--tw-gradient-stops));
+}
+
+.bg-gradient-conic {
+  background-image: conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops));
+}
+
+.bg-gradient-hero {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.bg-gradient-purple-pink {
+  background: linear-gradient(135deg, #8B5CF6 0%, #EC4899 100%);
+}
+
+.bg-gradient-blue-purple {
+  background: linear-gradient(135deg, #3B82F6 0%, #8B5CF6 100%);
+}
+
+.bg-gradient-cyan-blue {
+  background: linear-gradient(135deg, #06B6D4 0%, #3B82F6 100%);
+}
+
+.bg-gradient-green-blue {
+  background: linear-gradient(135deg, #10B981 0%, #3B82F6 100%);
+}
+
+.bg-gradient-orange-pink {
+  background: linear-gradient(135deg, #F59E0B 0%, #EC4899 100%);
+}
+
+.bg-gradient-dark {
+  background: linear-gradient(135deg, #1F2937 0%, #111827 100%);
+}
+
+.bg-gradient-slate {
+  background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%);
+}
+
+.bg-gradient-glass {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Text gradients */
+.text-gradient-purple-pink {
+  background: linear-gradient(135deg, #8B5CF6 0%, #EC4899 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text-gradient-blue-purple {
+  background: linear-gradient(135deg, #3B82F6 0%, #8B5CF6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text-gradient-cyan-blue {
+  background: linear-gradient(135deg, #06B6D4 0%, #3B82F6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text-gradient-green-blue {
+  background: linear-gradient(135deg, #10B981 0%, #3B82F6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text-gradient-orange-pink {
+  background: linear-gradient(135deg, #F59E0B 0%, #EC4899 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Border gradients */
+.border-gradient-purple-pink {
+  border: 1px solid transparent;
+  background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%) padding-box,
+              linear-gradient(135deg, #8B5CF6 0%, #EC4899 100%) border-box;
+}
+
+.border-gradient-blue-purple {
+  border: 1px solid transparent;
+  background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%) padding-box,
+              linear-gradient(135deg, #3B82F6 0%, #8B5CF6 100%) border-box;
+}
+
+.border-gradient-cyan-blue {
+  border: 1px solid transparent;
+  background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%) padding-box,
+              linear-gradient(135deg, #06B6D4 0%, #3B82F6 100%) border-box;
+}
+
+/* Button gradients */
+.btn-gradient-purple-pink {
+  background: linear-gradient(135deg, #8B5CF6 0%, #EC4899 100%);
+  transition: all 0.3s ease;
+}
+
+.btn-gradient-purple-pink:hover {
+  background: linear-gradient(135deg, #7C3AED 0%, #DB2777 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px -5px rgba(139, 92, 246, 0.4), 0 10px 10px -5px rgba(236, 72, 153, 0.3);
+}
+
+.btn-gradient-blue-purple {
+  background: linear-gradient(135deg, #3B82F6 0%, #8B5CF6 100%);
+  transition: all 0.3s ease;
+}
+
+.btn-gradient-blue-purple:hover {
+  background: linear-gradient(135deg, #2563EB 0%, #7C3AED 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px -5px rgba(59, 130, 246, 0.4), 0 10px 10px -5px rgba(139, 92, 246, 0.3);
+}
+
+/* Glassmorphism effect */
+.glass {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+.glass-dark {
+  background: rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+/* Animated gradients */
+.animated-gradient {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+.animated-gradient-purple {
+  background: linear-gradient(-45deg, #8B5CF6, #EC4899, #3B82F6, #10B981);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+.animated-gradient-blue {
+  background: linear-gradient(-45deg, #1D4ED8, #3B82F6, #06B6D4, #0EA5E9);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+/* Gradient shadows */
+.shadow-gradient-purple {
+  box-shadow: 0 10px 15px -3px rgba(139, 92, 246, 0.3), 0 4px 6px -2px rgba(236, 72, 153, 0.2);
+}
+
+.shadow-gradient-blue {
+  box-shadow: 0 10px 15px -3px rgba(59, 130, 246, 0.3), 0 4px 6px -2px rgba(6, 182, 212, 0.2);
+}
+
+.shadow-gradient-green {
+  box-shadow: 0 10px 15px -3px rgba(16, 185, 129, 0.3), 0 4px 6px -2px rgba(5, 150, 105, 0.2);
+}
