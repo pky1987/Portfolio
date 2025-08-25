@@ -52,6 +52,69 @@ export default function About() {
           </p>
         </AnimatedSection>
 
+        {/* Technical Vision Section */}
+        <AnimatedSection delay={0.1} className="mb-16">
+          <div className="bg-slate-700/50 rounded-2xl p-8 border border-slate-600">
+            <h3 className="text-2xl font-bold text-white mb-6">Technical Vision</h3>
+            <div className="space-y-4 text-gray-300">
+              <p>
+                My work is focused on solving the hard problems of autonomy and verification at the systems level. 
+                I architect solutions where intelligent agents can operate transparently and verifiably without centralized control.
+              </p>
+              <p>
+                This requires a synthesis of AI for decision-making, blockchain for trust and coordination, 
+                and languages like Rust & Elixir to build the secure, resilient infrastructure that makes it all possible.
+              </p>
+              
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+                <div>
+                  <h4 className="text-white font-semibold mb-3">Core Expertise</h4>
+                  <ul className="space-y-2">
+                    <li className="flex items-start">
+                      <span className="text-purple-400 mr-2">•</span>
+                      <span>Blockchain Protocol Design</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-purple-400 mr-2">•</span>
+                      <span>AI Agent Orchestration</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-purple-400 mr-2">•</span>
+                      <span>Smart Contract Security</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-purple-400 mr-2">•</span>
+                      <span>Distributed Systems</span>
+                    </li>
+                  </ul>
+                </div>
+                
+                <div>
+                  <h4 className="text-white font-semibold mb-3">Key Tools</h4>
+                  <ul className="space-y-2">
+                    <li className="flex items-start">
+                      <span className="text-purple-400 mr-2">•</span>
+                      <span>Rust, Elixir, Python</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-purple-400 mr-2">•</span>
+                      <span>Solidity</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-purple-400 mr-2">•</span>
+                      <span>LangChain/LangGraph</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-purple-400 mr-2">•</span>
+                      <span>Foundry/Hardhat</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </AnimatedSection>
+
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
           <AnimatedSection className="order-2 lg:order-1">
             <div className="bg-slate-700/50 rounded-2xl p-8 border border-slate-600">

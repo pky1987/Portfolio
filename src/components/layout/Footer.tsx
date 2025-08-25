@@ -1,5 +1,7 @@
-import { Github, Linkedin, Mail, Twitter ,Code} from 'lucide-react';
+import { Github, Linkedin, Mail, Code } from 'lucide-react';
 import GradientText from '../ui/GradientText';
+import Image from 'next/image';
+import CD from '../../../public/images/codehawk.svg'
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -59,11 +61,13 @@ export default function Footer() {
                 <Linkedin className="w-6 h-6" />
               </a>
               <a
-                href="https://twitter.com/yourhandle"
+                href="https://profiles.cyfrin.io/u/py430896"
                 className="text-gray-400 hover:text-white transition-colors"
-                aria-label="Twitter"
+                aria-label="CodeHawks"
               >
-                <Twitter className="w-6 h-6" />
+                <div className="w-6 h-6 filter grayscale hover:filter-none transition-all">
+                  <Image src={CD} alt="CodeHawks" className="w-full h-full" />
+                </div>
               </a>
               <a
                 href="mailto:prakashyadav.by965@gmail.com"

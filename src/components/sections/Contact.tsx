@@ -129,6 +129,7 @@ export default function Contact() {
                       required
                       className="w-full px-4 py-3 bg-slate-700 border border-slate-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-purple-400 transition-colors"
                       placeholder="Your name"
+                      suppressHydrationWarning
                     />
                   </div>
                   <div>
@@ -144,6 +145,7 @@ export default function Contact() {
                       required
                       className="w-full px-4 py-3 bg-slate-700 border border-slate-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-purple-400 transition-colors"
                       placeholder="your.email@domain.com"
+                      suppressHydrationWarning
                     />
                   </div>
                 </div>
@@ -161,6 +163,7 @@ export default function Contact() {
                     required
                     className="w-full px-4 py-3 bg-slate-700 border border-slate-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-purple-400 transition-colors"
                     placeholder="What's this about?"
+                    suppressHydrationWarning
                   />
                 </div>
                 
@@ -177,6 +180,7 @@ export default function Contact() {
                     rows={5}
                     className="w-full px-4 py-3 bg-slate-700 border border-slate-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-purple-400 transition-colors resize-vertical"
                     placeholder="Tell me about your project or opportunity..."
+                    suppressHydrationWarning
                   />
                 </div>
                 
