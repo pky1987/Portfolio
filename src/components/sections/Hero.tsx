@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Code, Brain, Shield, Sparkles,Download } from 'lucide-react';
+import { Code, Brain, Shield, Sparkles,Download,Cpu,Droplets} from 'lucide-react';
 
 export default function Hero() {
   return (
@@ -40,6 +40,8 @@ export default function Hero() {
             { icon: Brain, label: 'AI Systems' },
             { icon: Shield, label: 'Security' },
             { icon: Sparkles, label: 'ZK-Proofs' },
+            { icon: Cpu, label: 'Rust' },
+            { icon: Droplets, label: 'Elixir' },
           ].map((item, index) => (
             <div
               key={item.label}

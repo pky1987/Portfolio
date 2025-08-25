@@ -3,7 +3,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 :root {
   --foreground-rgb: 255, 255, 255;
   --background-start-rgb: 15, 23, 42;
@@ -354,7 +353,6 @@ textarea:focus-visible {
   }
 }
 
-
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -693,8 +691,6 @@ textarea:focus-visible {
 .stagger-children > *:nth-child(8) { animation-delay: 800ms; }
 .stagger-children > *:nth-child(9) { animation-delay: 900ms; }
 .stagger-children > *:nth-child(10) { animation-delay: 1000ms; }
-
-/* src/styles/gradients.css */
 
 /* Background gradients */
 .bg-gradient-radial {

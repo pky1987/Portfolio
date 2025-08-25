@@ -48,7 +48,7 @@ export default function About() {
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             I architect and build the next generation of intelligent, verifiable systems 
-            that operate at the intersection of blockchain and artificial intelligence
+            that operate at the intersection of blockchain and artificial intelligence.
           </p>
         </AnimatedSection>
 

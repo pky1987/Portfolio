@@ -24,9 +24,13 @@ export default function Home() {
         </h2>
         <div className="text-lg leading-relaxed space-y-6">
           <p>
-            I'm a <span className="text-purple-300 font-semibold">Protocol Architect</span> specializing in 
+            I&apos;m a <span className="text-purple-300 font-semibold">Protocol Architect</span> specializing in 
             building verifiable, intelligent systems that operate in trust-minimized environments. 
             My work sits at the intersection of AI, blockchain, and security.
+          </p>
+          <p>
+            I&apos;ve worked on various projects that involve smart contracts, zero-knowledge proofs, 
+            and distributed systems engineering.
           </p>
           <p>
             I architect systems where AI can make decisions and take actions that are cryptographically 
@@ -47,10 +51,10 @@ export default function Home() {
         <div className="text-center space-y-4">
           <p className="text-xl">Feel free to reach out for collaboration or opportunities</p>
           <div className="flex justify-center space-x-6 pt-6">
-            <a href="mailto:your.email@domain.com" className="text-purple-300 hover:text-white transition-colors">
+            <a href="mailto:prakashyadav.by965@gmail.com" className="text-purple-300 hover:text-white transition-colors">
               Email
             </a>
-            <a href="https://linkedin.com/in/yourprofile" className="text-purple-300 hover:text-white transition-colors">
+            <a href="https://linkedin.com/in/prakash-yadav-705775374" className="text-purple-300 hover:text-white transition-colors">
               LinkedIn
             </a>
             <a href="https://github.com/pky1987" className="text-purple-300 hover:text-white transition-colors">

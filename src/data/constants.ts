@@ -1,14 +1,13 @@
-// src/data/constants.ts
 
 export const SOCIAL_LINKS = {
   GITHUB: 'https://github.com/pky1987',
-  LINKEDIN: 'https://linkedin.com/in/yourprofile',
+  LINKEDIN: 'https://linkedin.com/in/prakash-yadav-705775374',
   TWITTER: 'https://twitter.com/yourhandle',
-  EMAIL: 'mailto:your.email@domain.com'
+  EMAIL: 'mailto:prakashyadav.by965@gmail.com'
 };
 
 export const CONTACT_INFO = {
-  EMAIL: 'your.email@domain.com',
+  EMAIL: 'prakashyadav.by965@gmail.com',
   LOCATION: 'Remote / Global',
   AVAILABILITY: 'Currently available for select projects'
 };

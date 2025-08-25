@@ -38,7 +38,7 @@ export default function Contact() {
             Get In <GradientText>Touch</GradientText>
           </h2>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-            Ready to discuss your next project or have questions about my work? Let's connect.
+            Ready to discuss your next project or have questions about my work? Let&apos;s connect.
           </p>
         </AnimatedSection>
 
