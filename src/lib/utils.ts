@@ -27,14 +27,14 @@ export function slugify(text: string): string {
 /**
  * Debounce function for performance optimization
  */
-export function debounce<T extends (...args: any[]) => any>(
+export function debounce<T extends (...args: unknown[]) => unknown>(
   func: T,
   wait: number
 ): (...args: Parameters<T>) => void {
   let timeout: NodeJS.Timeout;
   return (...args: Parameters<T>) => {
     clearTimeout(timeout);
-    timeout = setTimeout(() => func.apply(null, args), wait);
+    timeout = setTimeout(() => func(...args), wait);
   };
 }
 
@@ -73,7 +73,7 @@ export async function copyToClipboard(text: string): Promise<boolean> {
   try {
     await navigator.clipboard.writeText(text);
     return true;
-  } catch (err) {
+  } catch (_err) {
     // Fallback for older browsers
     const textArea = document.createElement('textarea');
     textArea.value = text;
@@ -86,7 +86,7 @@ export async function copyToClipboard(text: string): Promise<boolean> {
       const successful = document.execCommand('copy');
       document.body.removeChild(textArea);
       return successful;
-    } catch (err) {
+    } catch (_err) {
       document.body.removeChild(textArea);
       return false;
     }

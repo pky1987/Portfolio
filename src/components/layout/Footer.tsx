@@ -52,7 +52,7 @@ export default function Footer() {
                 <Github className="w-6 h-6" />
               </a>
               <a
-                href="https://linkedin.com/in/yourprofile"
+                href="https://linkedin.com/in/prakash-yadav-705775374"
                 className="text-gray-400 hover:text-white transition-colors"
                 aria-label="LinkedIn"
               >
@@ -66,7 +66,7 @@ export default function Footer() {
                 <Twitter className="w-6 h-6" />
               </a>
               <a
-                href="mailto:your.email@domain.com"
+                href="mailto:prakashyadav.by965@gmail.com"
                 className="text-gray-400 hover:text-white transition-colors"
                 aria-label="Email"
               >

@@ -10,7 +10,7 @@ const skillCategories = [
     title: "Blockchain & Web3",
     icon: Code,
     skills: [
-      { name: "Solidity", level: 95 },
+      { name: "Solidity", level: 90 },
       { name: "Smart Contract Security", level: 90 },
       { name: "ZK-Proofs", level: 85 },
       { name: "DeFi Protocols", level: 88 },
@@ -22,7 +22,7 @@ const skillCategories = [
     icon: Brain,
     skills: [
       { name: "LangGraph", level: 88 },
-      { name: "TensorFlow/PyTorch", level: 92 },
+      { name: "TensorFlow/PyTorch/Scikit-Learn", level: 92 },
       { name: "Natural Language Processing", level: 85 },
       { name: "Reinforcement Learning", level: 80 },
       { name: "Computer Vision", level: 82 },
@@ -34,9 +34,9 @@ const skillCategories = [
     skills: [
       { name: "Rust", level: 90 },
       { name: "Elixir/OTP", level: 87 },
-      { name: "Go", level: 83 },
-      { name: "C++", level: 85 },
-      { name: "Distributed Systems", level: 88 },
+      { name: "Java", level: 83 },
+      { name: "Python", level: 85 },
+      { name: "Kotlin", level: 88 },
     ]
   },
   {

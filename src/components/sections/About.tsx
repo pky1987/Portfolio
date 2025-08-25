@@ -60,12 +60,12 @@ export default function About() {
                 <p>
                   I believe the future of technology lies in creating systems that are not just 
                   intelligent but also verifiable and trustless. My work focuses on combining 
-                  AI's predictive power with blockchain's trust guarantees to create a new 
+                  AI&apos;s predictive power with blockchain&apos;s trust guarantees to create a new 
                   paradigm of decentralized intelligence.
                 </p>
                 <p>
                   With expertise spanning smart contract development, zero-knowledge proofs, 
-                  and AI systems, I'm uniquely positioned to build solutions that address 
+                  and AI systems, I&apos;m uniquely positioned to build solutions that address 
                   the fundamental challenges of trust, transparency, and automation in 
                   digital systems.
                 </p>

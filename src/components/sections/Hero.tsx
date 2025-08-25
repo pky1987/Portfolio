@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Code, Brain, Shield, Sparkles,Download,Cpu,Droplets} from 'lucide-react';
+import { Code, Brain, Shield, Sparkles, Download, Cpu, Database } from 'lucide-react';
 
 export default function Hero() {
   return (
@@ -41,8 +41,8 @@ export default function Hero() {
             { icon: Shield, label: 'Security' },
             { icon: Sparkles, label: 'ZK-Proofs' },
             { icon: Cpu, label: 'Rust' },
-            { icon: Droplets, label: 'Elixir' },
-          ].map((item, index) => (
+            { icon: Database, label: 'Elixir' },
+          ].map((item) => (
             <div
               key={item.label}
               className="flex items-center space-x-2 bg-white/10 backdrop-blur-md rounded-full px-4 py-2 border border-white/20"
@@ -57,24 +57,32 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          className="flex flex-col sm:flex-row gap-4 justify-center"
+          className="flex flex-col items-center gap-4"
         >
+          {/* First row: View Projects and GitHub Profile */}
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="#projects"
+              className="px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded-lg font-medium hover:from-purple-700 hover:to-pink-700 transition-all duration-300 transform hover:scale-105 shadow-lg shadow-purple-500/25"
+            >
+              View Projects
+            </a>
+            <a
+              href="https://github.com/pky1987"
+              className="px-8 py-4 border border-purple-400 text-purple-300 rounded-lg font-medium hover:bg-purple-950 transition-all duration-300 transform hover:scale-105"
+            >
+              GitHub Profile
+            </a>
+          </div>
+          
+          {/* Second row: View Resume */}
           <a
-            href="#projects"
-            className="px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded-lg font-medium hover:from-purple-700 hover:to-pink-700 transition-all duration-300 transform hover:scale-105 shadow-lg shadow-purple-500/25"
+            href="/Prakash_Yadav_Resume.pdf" 
+            target="_blank"
+            className="px-6 py-3 border border-purple-400 text-purple-300 rounded-lg hover:bg-purple-950 transition-all"
           >
-            View Projects
+            <Download className="w-4 h-4 mr-2 inline" />View Resume
           </a>
-          <a
-            href="https://github.com/pky1987"
-            className="px-8 py-4 border border-purple-400 text-purple-300 rounded-lg font-medium hover:bg-purple-950 transition-all duration-300 transform hover:scale-105"
-          >
-            GitHub Profile
-          </a>
-          <a
-          href="/Prakash_Yadav_Resume.pdf" target="_blank"
-          className="px-6 py-3 border border-purple-400 text-purple-300 rounded-lg hover:bg-purple-950 transition-all">
-          <Download className="w-4 h-4 mr-2 inline" />View Resume</a>
         </motion.div>
 
         {/* Scroll indicator */}

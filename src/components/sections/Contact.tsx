@@ -54,8 +54,8 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="text-white font-semibold">Email</h4>
-                    <a href="mailto:contact@yourdomain.com" className="text-gray-300 hover:text-purple-300 transition-colors">
-                      contact@yourdomain.com
+                    <a href="mailto:prakashyadav.by965@gmail.com" className="text-gray-300 hover:text-purple-300 transition-colors">
+                      prakashydav.by965@gmail.com
                     </a>
                   </div>
                 </div>
@@ -91,7 +91,7 @@ export default function Contact() {
                       <Github className="w-5 h-5" />
                     </a>
                     <a
-                      href="https://linkedin.com/in/yourprofile"
+                      href="https://linkedin.com/in/prakash-yadav-705775374"
                       className="w-10 h-10 bg-slate-700 rounded-lg flex items-center justify-center text-gray-300 hover:text-white hover:bg-purple-600 transition-colors"
                       aria-label="LinkedIn"
                     >

@@ -1,11 +1,4 @@
 
-export const SOCIAL_LINKS = {
-  GITHUB: 'https://github.com/pky1987',
-  LINKEDIN: 'https://linkedin.com/in/prakash-yadav-705775374',
-  TWITTER: 'https://twitter.com/yourhandle',
-  EMAIL: 'mailto:prakashyadav.by965@gmail.com'
-};
-
 export const CONTACT_INFO = {
   EMAIL: 'prakashyadav.by965@gmail.com',
   LOCATION: 'Remote / Global',

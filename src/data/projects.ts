@@ -96,5 +96,5 @@ export const projects: Project[] = [
       "Redis caching for social features",
       "Next.js SSG and ISR for SEO"
     ]
-  }
+  },
 ];
