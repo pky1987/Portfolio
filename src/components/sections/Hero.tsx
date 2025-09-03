@@ -38,7 +38,7 @@ export default function Hero() {
           {[
             { icon: Code, label: 'Smart Contracts' },
             { icon: Brain, label: 'AI Systems' },
-            { icon: Shield, label: 'Security' },
+            { icon: Shield, label: 'Security' }, 
             { icon: Sparkles, label: 'ZK-Proofs' },
             { icon: Cpu, label: 'Rust' },
             { icon: Droplets, label: 'Elixir' },

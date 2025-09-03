@@ -97,4 +97,37 @@ export const projects: Project[] = [
       "Next.js SSG and ISR for SEO"
     ]
   },
+  {
+    id: 4,
+    title: "RenewGen - Renewable Energy App",
+    description: "Full-stack platform for discovering and knowing renewable energy",
+    longDescription: "A responsive android phone application that allows users to discover, create, and share effective searching renewable energy,insights,community and "+
+    "chats,publish and share your insights as well as ai prompting only answer regarding to RenewGen. Features user authentication, search, and social sharing capabilities,current updates and opportunities.",
+    techStack: ["Kotlin", "Node.js", "MongoDB", "XML"],
+    githubUrl: "https://github.com/pky1987/RenewGen",
+    liveUrl: "https://promptopia-pky.vercel.app",
+    imageUrl: "/images/projects/promptopia/dashboard.png",
+    features: [
+      "User authentication and profile management",
+      "Advanced search for renewable energy information",
+      "Community features: insights sharing, chats, and discussions",
+      "AI-powered prompting for renewable energy queries",
+      "Real-time updates on energy opportunities and news",
+      "Personalized energy insights and recommendations"
+    ],
+    challenges: [
+      "Integrating real-time renewable energy data sources",
+      "Managing community interactions and content moderation",
+      "Optimizing AI responses for renewable energy domain",
+      "Ensuring app performance on various Android devices",
+      "Handling offline functionality for energy data"
+    ],
+    solutions: [
+      "RESTful APIs integration with energy data providers",
+      "Firebase for real-time database and authentication",
+      "Custom-trained AI model for domain-specific responses",
+      "Kotlin coroutines and Room database for performance",
+      "Offline caching with WorkManager for background sync"
+    ]
+  },
 ];

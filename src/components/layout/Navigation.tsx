@@ -1,6 +1,6 @@
 'use client';
 
-import { Code, Brain, Shield, Sparkles } from 'lucide-react';
+import { Code, Brain, Shield, Sparkles, BookOpen } from 'lucide-react';
 
 interface NavigationProps {
   onNavigate?: () => void;
@@ -13,11 +13,16 @@ export default function Navigation({ onNavigate, className = '' }: NavigationPro
     { name: 'Skills', href: '#skills', icon: Brain },
     { name: 'About', href: '#about', icon: Sparkles },
     { name: 'Contact', href: '#contact', icon: Shield },
+    { name: 'Blog', href: 'https://blog.prakashyadav.com', icon: BookOpen },
   ];
 
   const handleClick = (href: string) => {
     if (onNavigate) onNavigate();
-    document.querySelector(href)?.scrollIntoView({ behavior: 'smooth' });
+    if (href.startsWith('http')) {
+      window.open(href, '_blank');
+    } else {
+      document.querySelector(href)?.scrollIntoView({ behavior: 'smooth' });
+    }
   };
 
   return (
