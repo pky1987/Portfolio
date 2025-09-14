@@ -76,4 +76,46 @@ export const audits: Audit[] = [
     image: "/images/audit/nft-icon.svg", // Placeholder, can be updated
     source_code_link: "https://github.com/pky1987/audit-report/blob/main/t-swap-audit-report.pdf",
   },
+  {
+    id: 4,
+    name: "ThunderLoan Audit Report",
+    description: "Comprehensive security assessment of a decentralized flash loan protocol. Uncovered multiple issues related to flash loan attacks.",
+    tags: [
+      {
+        name: "Flash Loan",
+        color: "cyan-text-gradient",
+      },
+      {
+        name: "Reward Manipulation",
+        color: "red-text-gradient",
+      },
+      {
+        name: "Liquidity Provider",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "/images/audit/nft-icon.svg", // Placeholder, can be updated
+    source_code_link: "https://github.com/pky1987/audit-report/blob/main/thunder.pdf",
+  },
+  {
+    id: 5,
+    name: "Boss Bridge Audit Report",
+    description: "Comprehensive security assessment of a bridge that allows users to deposit tokens, which are held into a secure vault on L1. Users can then mint an equivalent amount of wrapped tokens on L2.",
+    tags: [
+      {
+        name: "Token",
+        color: "cyan-text-gradient",
+      },
+      {
+        name: "Vault",
+        color: "red-text-gradient",
+      },
+      {
+        name: "Oracle Manipulation",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "/images/audit/nft-icon.svg", // Placeholder, can be updated
+    source_code_link: "https://github.com/pky1987/audit-report/blob/main/boss-bridge.pdf",
+  },
 ];

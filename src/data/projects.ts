@@ -13,32 +13,37 @@ export interface Project {
 }
 
 export const projects: Project[] = [
-  {
+   {
     id: 1,
-    title: "Nexus Core - Verifiable AI Network",
-    description: "Decentralized network for verifiable AI execution with ZK-proofs",
-    longDescription: "A distributed system that allows users to submit AI tasks to nodes that return results with cryptographic proof of correct execution. Combines blockchain trust with AI capabilities through zk-SNARK verification.",
-    techStack: ["Rust", "Elixir", "Solidity", "ZK-Proofs", "Next.js", "LangGraph"],
-    githubUrl: "https://github.com/pky1987/nexus-core",
-    liveUrl: "https://nexus-core.vercel.app",
-    imageUrl: "/images/projects/nexus-core/architecture.png",
+    title: "RenewGen - Renewable Energy App",
+    description: "Full-stack platform for discovering and knowing renewable energy",
+    longDescription: "A responsive android phone application that allows users to discover, create, and share effective searching renewable energy,insights,community and "+
+    "chats,publish and share your insights as well as ai prompting only answer regarding to RenewGen. Features user authentication, search, and social sharing capabilities,current updates and opportunities.",
+    techStack: ["Kotlin", "Node.js", "MongoDB", "XML"],
+    githubUrl: "https://github.com/pky1987/RenewGen",
+    liveUrl: "https://promptopia-pky.vercel.app",
+    imageUrl: "/images/projects/promptopia/dashboard.png",
     features: [
-      "ZK-proof verification of AI model execution",
-      "Distributed node network with economic incentives",
-      "Real-time result verification on blockchain",
-      "Cryptographic guarantees of correctness"
+      "User authentication and profile management",
+      "Advanced search for renewable energy information",
+      "Community features: insights sharing, chats, and discussions",
+      "AI-powered prompting for renewable energy queries",
+      "Real-time updates on energy opportunities and news",
+      "Personalized energy insights and recommendations"
     ],
     challenges: [
-      "High computational overhead for ZK-proof generation",
-      "Coordinating distributed nodes reliably",
-      "Preventing malicious node behavior",
-      "Gas optimization for on-chain verification"
+      "Integrating real-time renewable energy data sources",
+      "Managing community interactions and content moderation",
+      "Optimizing AI responses for renewable energy domain",
+      "Ensuring app performance on various Android devices",
+      "Handling offline functionality for energy data"
     ],
     solutions: [
-      "Optimized circuit design using halo2 and circom",
-      "Elixir/OTP supervision trees for fault tolerance",
-      "Staking and slashing mechanisms for node security",
-      "Batch verification and layer 2 solutions"
+      "RESTful APIs integration with energy data providers",
+      "Firebase for real-time database and authentication",
+      "Custom-trained AI model for domain-specific responses",
+      "Kotlin coroutines and Room database for performance",
+      "Offline caching with WorkManager for background sync"
     ]
   },
   {
@@ -71,6 +76,34 @@ export const projects: Project[] = [
   },
   {
     id: 3,
+    title: "Nexus Core - Verifiable AI Network",
+    description: "Decentralized network for verifiable AI execution with ZK-proofs",
+    longDescription: "A distributed system that allows users to submit AI tasks to nodes that return results with cryptographic proof of correct execution. Combines blockchain trust with AI capabilities through zk-SNARK verification.",
+    techStack: ["Rust", "Elixir", "Solidity", "ZK-Proofs", "Next.js", "LangGraph"],
+    githubUrl: "https://github.com/pky1987/nexus-core",
+    liveUrl: "https://nexus-core.vercel.app",
+    imageUrl: "/images/projects/nexus-core/architecture.png",
+    features: [
+      "ZK-proof verification of AI model execution",
+      "Distributed node network with economic incentives",
+      "Real-time result verification on blockchain",
+      "Cryptographic guarantees of correctness"
+    ],
+    challenges: [
+      "High computational overhead for ZK-proof generation",
+      "Coordinating distributed nodes reliably",
+      "Preventing malicious node behavior",
+      "Gas optimization for on-chain verification"
+    ],
+    solutions: [
+      "Optimized circuit design using halo2 and circom",
+      "Elixir/OTP supervision trees for fault tolerance",
+      "Staking and slashing mechanisms for node security",
+      "Batch verification and layer 2 solutions"
+    ]
+  },
+   {
+    id: 4,
     title: "Promptopia - AI Prompt Marketplace",
     description: "Full-stack platform for discovering and sharing AI prompts",
     longDescription: "A responsive web application that allows users to discover, create, and share effective prompts for various AI models. Features user authentication, search, and social sharing capabilities.",
@@ -96,38 +129,5 @@ export const projects: Project[] = [
       "Redis caching for social features",
       "Next.js SSG and ISR for SEO"
     ]
-  },
-  {
-    id: 4,
-    title: "RenewGen - Renewable Energy App",
-    description: "Full-stack platform for discovering and knowing renewable energy",
-    longDescription: "A responsive android phone application that allows users to discover, create, and share effective searching renewable energy,insights,community and "+
-    "chats,publish and share your insights as well as ai prompting only answer regarding to RenewGen. Features user authentication, search, and social sharing capabilities,current updates and opportunities.",
-    techStack: ["Kotlin", "Node.js", "MongoDB", "XML"],
-    githubUrl: "https://github.com/pky1987/RenewGen",
-    liveUrl: "https://promptopia-pky.vercel.app",
-    imageUrl: "/images/projects/promptopia/dashboard.png",
-    features: [
-      "User authentication and profile management",
-      "Advanced search for renewable energy information",
-      "Community features: insights sharing, chats, and discussions",
-      "AI-powered prompting for renewable energy queries",
-      "Real-time updates on energy opportunities and news",
-      "Personalized energy insights and recommendations"
-    ],
-    challenges: [
-      "Integrating real-time renewable energy data sources",
-      "Managing community interactions and content moderation",
-      "Optimizing AI responses for renewable energy domain",
-      "Ensuring app performance on various Android devices",
-      "Handling offline functionality for energy data"
-    ],
-    solutions: [
-      "RESTful APIs integration with energy data providers",
-      "Firebase for real-time database and authentication",
-      "Custom-trained AI model for domain-specific responses",
-      "Kotlin coroutines and Room database for performance",
-      "Offline caching with WorkManager for background sync"
-    ]
-  },
+  }
 ];

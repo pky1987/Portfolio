@@ -12,20 +12,20 @@ const skillCategories = [
     skills: [
       { name: "Solidity", level: 90 },
       { name: "Smart Contract Security", level: 90 },
-      { name: "ZK-Proofs", level: 85 },
-      { name: "DeFi Protocols", level: 88 },
-      { name: "Token Standards", level: 87 },
+      { name: "ZK-Proofs", level: 65 },
+      { name: "DeFi Protocols", level: 80 },
+      { name: "Token Standards", level: 82 },
     ]
   },
   {
     title: "AI & Machine Learning",
     icon: Brain,
     skills: [
-      { name: "LangGraph", level: 88 },
-      { name: "TensorFlow/PyTorch/Scikit-Learn", level: 92 },
-      { name: "Natural Language Processing", level: 85 },
-      { name: "Reinforcement Learning", level: 80 },
-      { name: "Computer Vision", level: 82 },
+      { name: "LangGraph", level: 60 },
+      { name: "TensorFlow/PyTorch/Scikit-Learn", level: 85 },
+      { name: "Natural Language Processing", level: 80 },
+      { name: "Reinforcement Learning", level: 70 },
+      { name: "Computer Vision", level: 85 },
     ]
   },
   {
@@ -34,9 +34,9 @@ const skillCategories = [
     skills: [
       { name: "Rust", level: 90 },
       { name: "Elixir/OTP", level: 87 },
-      { name: "Java", level: 83 },
-      { name: "Python", level: 85 },
-      { name: "Kotlin", level: 88 },
+      { name: "Java", level: 85 },
+      { name: "Python", level: 90 },
+      { name: "Kotlin", level: 90 },
     ]
   },
   {
@@ -46,8 +46,8 @@ const skillCategories = [
       { name: "Smart Contract Auditing", level: 91 },
       { name: "Penetration Testing", level: 86 },
       { name: "Cryptography", level: 89 },
-      { name: "Formal Verification", level: 84 },
-      { name: "Zero-Knowledge Proofs", level: 87 },
+      { name: "Formal Verification", level: 70 },
+      { name: "Zero-Knowledge Proofs", level: 65 },
     ]
   },
   {
@@ -56,20 +56,20 @@ const skillCategories = [
     skills: [
       { name: "PostgreSQL", level: 88 },
       { name: "MongoDB", level: 85 },
-      { name: "Redis", level: 87 },
-      { name: "Docker", level: 90 },
-      { name: "Kubernetes", level: 83 },
+      { name: "Redis", level: 40 },
+      { name: "Docker", level: 70 },
+      { name: "Kubernetes", level: 75 },
     ]
   },
   {
     title: "Cloud & DevOps",
     icon: Cloud,
     skills: [
-      { name: "AWS", level: 86 },
-      { name: "Azure", level: 82 },
-      { name: "CI/CD Pipelines", level: 89 },
-      { name: "Terraform", level: 84 },
-      { name: "Monitoring & Logging", level: 87 },
+      { name: "AWS", level: 70 },
+      { name: "Azure", level: 50 },
+      { name: "CI/CD Pipelines", level: 60 },
+      { name: "Terraform", level: 35 },
+      { name: "Monitoring & Logging", level: 50 },
     ]
   }
 ];

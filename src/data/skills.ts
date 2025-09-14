@@ -16,7 +16,7 @@ export const skills: SkillCategory[] = [
     items: [
       {
         name: "Solidity",
-        level: 95,
+        level: 90,
         description: "Smart contract development with advanced patterns",
         projects: ["Nexus Core", "AMM Protocol", "DeFi Applications"]
       },
@@ -28,7 +28,7 @@ export const skills: SkillCategory[] = [
       },
       {
         name: "ZK-Proofs",
-        level: 85,
+        level: 60,
         description: "Zero-knowledge proof circuits and applications",
         projects: ["Nexus Core", "Privacy Protocols"]
       }
@@ -39,7 +39,7 @@ export const skills: SkillCategory[] = [
     items: [
       {
         name: "LangGraph",
-        level: 88,
+        level: 70,
         description: "Multi-agent systems and AI workflow orchestration",
         projects: ["Nexus Core", "AI Agents"]
       },
@@ -89,7 +89,7 @@ export const skills: SkillCategory[] = [
     items: [
       {
         name: "Ethical Hacking",
-        level: 90,
+        level: 80,
         description: "Penetration testing, vulnerability scanning, and exploitation",
         projects: ["Security Audits", "Bug Bounty Programs", "Network Pen Testing"]
       }
