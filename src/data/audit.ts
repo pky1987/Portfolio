@@ -115,7 +115,28 @@ export const audits: Audit[] = [
         color: "pink-text-gradient",
       },
     ],
-    image: "/images/audit/nft-icon.svg", // Placeholder, can be updated
+    image: "/images/audit/nft-icon.svg", 
     source_code_link: "https://github.com/pky1987/audit-report/blob/main/boss-bridge.pdf",
+  },
+  {
+    id: 5,
+    name: "Math Masters Audit Report",
+    description: "Comprehensive security assessment of math master smart contract through formal verification using Certora Prover and Halmos.",
+    tags: [
+      {
+        name: "Certora",
+        color: "cyan-text-gradient",
+      },
+      {
+        name: "Halmos",
+        color: "red-text-gradient",
+      },
+      {
+        name: "Formal Verification",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "/images/audit/nft-icon.svg", 
+    source_code_link: "https://github.com/pky1987/audit-report/blob/main/math_master.pdf",
   },
 ];
