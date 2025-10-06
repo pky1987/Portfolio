@@ -34,7 +34,7 @@ export default function Footer() {
                 { name: 'Skills', href: '#skills' },
                 { name: 'About', href: '#about' },
                 { name: 'Contact', href: '#contact' },
-                { name: 'Blog', href: 'https://blog.prakashyadav.com' },
+                { name: 'Blog', href: 'https://prakashauditorblog.hashnode.dev/' },
               ].map((item) => (
                 <li key={item.name}>
                   <a
